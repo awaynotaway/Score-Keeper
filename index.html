@@ -24,7 +24,7 @@
             <!-- Title -->
          
             <!-- Score -->
-            <div class="score">0 to 0</div>
+            <div class="score"><span id="player1-score">0</span> to <span id="player2-score">0</span></div>
 
             <!-- Playing To -->
             <div class="mb-3">
@@ -40,9 +40,9 @@
 
         <!-- Buttons (full width, edge to edge) -->
         <div class="btn-group-custom d-flex">
-            <button class="btn btn-success-custom flex-fill">+1 Player One</button>
-            <button class="btn btn-primary flex-fill">+1 Player Two</button>
-            <button class="btn btn-danger flex-fill">Reset</button>
+            <button class="btn btn-success-custom flex-fill" id="btnP1">+1 Player One</button>
+            <button class="btn btn-primary flex-fill" id="btnP2">+1 Player Two</button>
+            <button class="btn btn-danger flex-fill" id="btnReset">Reset</button>
         </div>
 
     </div>
@@ -50,7 +50,6 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="app.js"></script>
 </body>
 </html>
-``
